@@ -46,7 +46,7 @@ I tuned temperature per role on purpose. The storyteller runs at 0.7 so the pros
 
 ## Block Diagram
 
-Yet to be added.
+<img width="2910" height="3500" alt="image" src="https://github.com/user-attachments/assets/d6929434-3bc0-46ac-97a3-ffc16fbbab2f" />
 
 **Files:**
 
