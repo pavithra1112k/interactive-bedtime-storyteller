@@ -2,9 +2,9 @@
 
 ## What I Built
 
-This is my submission for the coding take-home assessment. I built a Python CLI that takes a child's story request and turns it into an interactive bedtime story for ages 5–10, using GPT-3.5-turbo and an LLM judge to improve quality.
+This is my submission for the coding take-home assessment. I built an agent that takes a child's story request and turns it into an interactive bedtime story for ages 5–10, using GPT-3.5-turbo and an LLM judge to improve quality.
 
-Novelty and a surprise element that I introduced: Instead of generating one block of text as a story, I made it a choose-your-own-adventure: the child picks A, B, or C at each decision point, and every segment is checked for safety and quality before they read it. (I actually took an inspiration from the game 'Until Dawn' for this)
+Novelty and a surprise element that I introduced: Instead of generating one block of text as a story, I made it a choose-your-own-adventure: the child picks A, B, or C at each decision point, and every segment is checked for safety and quality before they read it. I actually took an inspiration from the game 'Until Dawn' for this.
 
 Run CLI with: `python3 main.py`<br>
 Run UI with: `streamlit run app.py`<br>
