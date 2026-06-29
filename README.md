@@ -131,3 +131,8 @@ For guardrails, an LLM call runs first on the user's request. Safe requests proc
 I kept Python deterministic where I could and used LLMs where I needed judgment or creativity. `main.py` is just the game loop — no business logic buried in it. Refinement stops on plateau with a hard cap of 3 rounds.
 
 The big idea for me: **judge before show, not after**. Quality gates should be a priority, especially for a children's bedtime product.
+
+## Future Scope
+
+If I were to continue expanding the project, I'd like to experiment with alternative orchestration approaches such as a supervising agent or ReAct-style agent that dynamically decides which agent or tool to invoke next. I'd also be interested in exploring frameworks like LangGraph for more complex multi-agent workflows, n8n for visual orchestration, and ComfyUI if the project evolves into multimodal storytelling with illustrations. These approaches would become more valuable as the system grows to include capabilities such as memory, RAG, external tools, or personalized story generation.
+
