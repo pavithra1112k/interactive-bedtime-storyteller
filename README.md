@@ -125,7 +125,11 @@ For guardrails, an LLM call runs first on the user's request. Safe requests proc
 - Engine errors are raised and handled in `main.py`, instead of exiting deep inside the story engine.
 
 ---
+## Demo
 
+https://drive.google.com/file/d/1P4MGGy8Ngwi1DeG2cry6NyohEiAu7U_D/view?usp=sharing
+
+---
 ## Design Choices
 
 I kept Python deterministic where I could and used LLMs where I needed judgment or creativity. `main.py` is just the game loop — no business logic buried in it. Refinement stops on plateau with a hard cap of 3 rounds.
